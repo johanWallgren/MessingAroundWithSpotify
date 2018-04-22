@@ -6,10 +6,8 @@ Code for R.
 1.
 
 >run downloadArtistData.R 
-This will create a tibble with all songs by the artist in >artistList.
-
+This will create a tibble with all songs by the artist in artistList. Edit the list for different artist.
 The tibble will be saved as artistData.RData.
-
 Move artistData.RData to folder App
 
 2.
@@ -19,7 +17,6 @@ Load library Shiny with
 
 Start app with
 >runApp('App')
-
 
 
 /Johan Wållgren 201804
