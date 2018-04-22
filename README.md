@@ -11,6 +11,7 @@ Install all packages needed.
 2.
 
 >run downloadArtistData.R 
+
 This will create a tibble with all songs by the artist in artistList. Edit the list for different artist.
 The tibble will be saved as artistData.RData.
 Move artistData.RData to folder App
