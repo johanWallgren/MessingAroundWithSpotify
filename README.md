@@ -3,14 +3,19 @@ Generate list of song depending on filter options
 
 Code for R.
 
-1.
+1. 
+
+Install all packages needed.
+>Run requierments.R 
+
+2.
 
 >run downloadArtistData.R 
 This will create a tibble with all songs by the artist in artistList. Edit the list for different artist.
 The tibble will be saved as artistData.RData.
 Move artistData.RData to folder App
 
-2.
+3.
 
 Load library Shiny with
 >library(shiny)
