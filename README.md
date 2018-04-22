@@ -14,7 +14,7 @@ Install all packages needed.
 
 This will create a tibble with data for all songs by the artists in artistList. 
 
-Edit the list for different artist. The tibble will be saved as artistData.RData.
+Edit the list to use more or less or different artist. The tibble will be saved as artistData.RData.
 Move artistData.RData to folder "App".
 
 3.
