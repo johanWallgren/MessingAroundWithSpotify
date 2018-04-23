@@ -16,7 +16,6 @@ url <- paste0("https://api.spotify.com/v1/users/", user, "/playlists")
 
 res <- POST(url,
             accept_json(),
-            authenticate(client_id, client_secret),
             body = list(name = "New Playlist12",
                              description = "Test playlist desc",
                              public = "false",
