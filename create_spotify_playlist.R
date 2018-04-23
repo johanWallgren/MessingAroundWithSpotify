@@ -3,7 +3,6 @@ library(tidyverse)
 library(httr)
 
 
-
 # access_token = get_spotify_access_token()
 access_token <- ''
 
@@ -29,3 +28,12 @@ res <- POST(url,
 #              accept_json(), authenticate(client_id, client_secret),
 #              body = list(grant_type = 'client_credentials'),
 #              encode = 'form', httr::config(http_version = 2)) %>% content
+
+
+# vec_happy <- as.vector(happy_songs$id)
+# for(i in 1:length(vec_happy)) {
+#   URL_temp <- paste0('https://api.spotify.com/v1/users/', userID, 
+#                      '/playlists/', playlistID_happy, '/tracks?uris=spotify:track:', vec_happy[i])
+#   POST(url = URL_temp, add_headers(Authorization = hv, scope = 'playlist-modify-public'
+#   ))
+# }
