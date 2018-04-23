@@ -18,8 +18,8 @@ access_tokenCreate <<- 'BQC9lzahE-1bqjPj9Z1ITKDjXaUe5JX-6KWN1aMR-LwTZ1YcUCXuUpot
 access_tokenAdd <<- 'BQDTAk0y4regGeiqTMXXjAekjN2FBpsaepFBcO_csuVWYoyLvXoSYwK-tb3XfQG-IIIhSbIVB-J-5emLUYKitwmAm8JHJhzrzNPwXTPfnaeIzHYDkd4cHbLeAaihMOLdyGYcOuzm4eV3y2WrTOsopUqIOdpiGDsSMPaoITQo2YDVuKuRo2K3wfuCpNSfVTtmOzv9Kz02Tp8Y5SsppOBxTTzOOas7kdWqPPQNz_Y'
 
 
-Sys.setenv(SPOTIFY_CLIENT_ID = '11fae2a08aad434d9da510b25f09de90') # Not my real client id
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '7d3588f452d445329ab8d1c5d8e5cb7a') # Not my real client secret
+Sys.setenv(SPOTIFY_CLIENT_ID = '21fae2a08aad434d9da510b25f09de90') # Not my real client id
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '8d3588f452d445329ab8d1c5d8e5cb7a') # Not my real client secret
 
 ##########################################################################
 # UI
