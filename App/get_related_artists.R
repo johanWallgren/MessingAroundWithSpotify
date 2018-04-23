@@ -1,3 +1,4 @@
+# From Rcharlie84
 #' Get Related Artists
 #'
 #' This function searches Spotify's library for artists by name or Spotify URI and returns related artists using Spotify's "Related Artists" API endpoint.
