@@ -8,8 +8,8 @@ access_tokenAdd <- 'BQDTAk0y4regGeiqTMXXjAekjN2FBpsaepFBcO_csuVWYoyLvXoSYwK-tb3X
 
 # User information
 user <- 'dn1mre3xxwdhwg9m9oxoes8tu'
-Sys.setenv(SPOTIFY_CLIENT_ID = '11fae2a08aad434d9da510b25f09de90')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '7d3588f452d445329ab8d1c5d8e5cb7a')
+Sys.setenv(SPOTIFY_CLIENT_ID = '21fae2a08aad434d9da510b25f09de90')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '8d3588f452d445329ab8d1c5d8e5cb7a')
 
 # Name of playlist to be created
 playlistName <- 'MAWS01'
