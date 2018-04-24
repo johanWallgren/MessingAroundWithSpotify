@@ -19,8 +19,8 @@ access_tokenCreate <<- 'BQB7pNmnWudTq68Uu5uzxHpNR5L9OKoXT2NOM-3rqdPV4TNdod_QKHhd
 
 # User information
 user <<- 'dn1mre3xxwdhwg9m9oxoes8tu'
-Sys.setenv(SPOTIFY_CLIENT_ID = '11fae2a08aad434d9da510b25f09de90') # Not my real client id
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '7d3588f452d445329ab8d1c5d8e5cb7a') # Not my real client secret
+Sys.setenv(SPOTIFY_CLIENT_ID = '21fae2a08aad434d9da510b25f09de90') # Not my real client id
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '8d3588f452d445329ab8d1c5d8e5cb7a') # Not my real client secret
 
 ##########################################################################
 # UI
