@@ -13,7 +13,7 @@ source('./get_user_playlists.R')
 source('./get_related_artists.R')
 source('./normalizeData.R')
 
-# Update these two:
+# Update this:
 # https://beta.developer.spotify.com/console/post-playlists/
 access_tokenCreate <<- 'BQB7pNmnWudTq68Uu5uzxHpNR5L9OKoXT2NOM-3rqdPV4TNdod_QKHhd7Ow9reFyYHV_Cws0gcQNgcnno80ymjPRE9c_QboCRqZRIThWegcGNbypzu27jVNSG1ln9Db2EyHbjVhWxJ8V2BU1NglUzMxXqFKUkR0FW5_9gS7yn2gdT0P2Me4FvkAn1G8YtPBH7Ufeg5rOLoSzCXusaN-bwNCixCFIWavSA_byXtI'
 
