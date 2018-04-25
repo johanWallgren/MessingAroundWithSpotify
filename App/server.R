@@ -48,7 +48,7 @@ server <- function(input, output) {
       # Does not work if Spotify does not have any tracks with related artist
       temp <- as_tibble(get_artist_audio_features_mod(allArists[i]))
       
-      if(is.na(temp) == 0){
+      if(length(temp) > 1){
         
         temp <- mutate(temp, 'artist' = allArists[i])
         
@@ -188,6 +188,5 @@ server <- function(input, output) {
     doneText
 
   })
-  
   
 }
